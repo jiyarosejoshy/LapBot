@@ -66,8 +66,9 @@ const Home = () => {
   return (
     <>
       <div className="navbar">
+      <h4 className = "subheading">--Theepori-</h4>
         <h2 className="heading">SPEC BOT</h2>
-        <h4 className = "subheading">Theepori🔥</h4>
+        
       </div>
 
       <div className="main">
