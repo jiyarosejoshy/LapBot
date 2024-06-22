@@ -1,4 +1,5 @@
 import React, { useState , useEffect } from "react";
+import { IoSend } from "react-icons/io5"; 
 import "./App.css";
 const Home = () => {
   const [messages, setmessages] = useState([
@@ -66,7 +67,7 @@ const Home = () => {
   return (
     <>
       <div className="navbar">
-      <h4 className = "subheading">--Theepori-</h4>
+      <h4 className = "subheading">THEEPORI</h4>
         <h2 className="heading">SPEC BOT</h2>
         
       </div>
@@ -107,7 +108,7 @@ const Home = () => {
       <div className="inputbox">
         <input id="inputdata" type="text" placeholder="Enter Message" />
         <button type="submit" onClick={getchat}>
-          send
+        <IoSend />
         </button>
       </div>
     </>
