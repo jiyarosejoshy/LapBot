@@ -36,7 +36,7 @@ const Home = () => {
         headers: {
           "content-type": "application/json",
         },
-        body: JSON.stringify(data),
+        body: JSON.stringify(userMessage),
       })
         .then((response) => {
           return response.json();
