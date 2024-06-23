@@ -15,7 +15,7 @@ html, body {
 
 .heading{
   color: #4ea6a1;
-  font-size: 30px;
+  font-size: 40px;
   font-weight: 500;
   /* background-color: blue; */
   /* margin: 40px; */
@@ -24,6 +24,8 @@ html, body {
   justify-content: center;
   align-items: center;
   text-align: center;
+  margin-bottom: 5px;
+  /* background-color: red; */
   /* background-color: red; */
 }
 
@@ -90,14 +92,14 @@ a{
   word-wrap: break-word; /* Ensures long words break to the next line */
 }
 
-.chat:nth-child(even) {
+.chat:nth-child(odd) {
   justify-content: flex-end;
 }
 
-.chat:nth-child(odd) {
+.chat:nth-child(even) {
   justify-content: flex-start;
 }
-.messge:nth-child(even)
+.messge:nth-child(odd)
 {
   background-color: #448cd3;
 }
@@ -157,17 +159,26 @@ a{
 /* HTML: <div class="loader"></div> */
 .loader {
   color: white;
-  width: 4px;
+  width: 7px;
+  margin: 10px;
   aspect-ratio: 1;
   border-radius: 50%;
   box-shadow: 19px 0 0 7px, 38px 0 0 3px, 57px 0 0 0;
   transform: translateX(-38px);
   animation: l21 .5s infinite alternate linear;
-  
+  margin-left: 30px;
+
 
 }
 
 @keyframes l21 {
   50%  {box-shadow: 19px 0 0 3px, 38px 0 0 7px, 57px 0 0 3px}
   100% {box-shadow: 19px 0 0 0  , 38px 0 0 3px, 57px 0 0 7px}
+}
+
+.subheading{
+  color: white;
+  text-align: center;
+  /* background-color: red; */
+  font-weight: 500;
 }

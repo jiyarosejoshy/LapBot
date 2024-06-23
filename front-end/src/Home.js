@@ -67,6 +67,7 @@ const Home = () => {
     <>
       <div className="navbar">
         <h2 className="heading">SPEC BOT</h2>
+        <h4 className = "subheading">By Theepori🔥</h4>
       </div>
 
       <div className="main">
