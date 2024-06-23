@@ -6,10 +6,10 @@ Spec Bot allows users to find laptops that suits their purposes.Anyone with or w
 
 ## Team members
 
-1. Navadeep Satheesh(https://github.com/TH-Activities/saturday-hack-night-template)
-2. Jiya Rose Joshy(https://github.com/TH-Activities/saturday-hack-night-template)
-3. Meenakshy Sudhir
-4. Renjith Rajan
+1. Navadeep Satheesh(https://github.com/Navadeep-Satheesh)
+2. Jiya Rose Joshy(https://github.com/j1i2y3a4)
+3. Meenakshy Sudhir(https://github.com/meenakshysudhir)
+4. Renjith Rajan(https://github.com/Renjith312)
 
 ## Link to product walkthrough
 
