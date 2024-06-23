@@ -36,6 +36,8 @@ html, body {
   margin-top: 0;
   /* background-color: red; */
   /* background-color: red; */
+  background-color: #1f1d21;
+  /* padding-bottom: 30px; */
 }
 
 a{
@@ -43,7 +45,8 @@ a{
 }
 
 .main {
-  height: 60vh;
+  height: 70vh;
+  /* margin-top: 100px; */
   display: flex;
   flex-direction: column;
   width: 60vw;
@@ -52,6 +55,7 @@ a{
   margin-top: 150px;
   overflow-x: hidden;
   /* background-color: red; */
+
 }
 
 .main::-webkit-scrollbar {
