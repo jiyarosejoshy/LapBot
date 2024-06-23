@@ -2,10 +2,9 @@ import React, { useState , useEffect } from "react";
 import "./App.css";
 const Home = () => {
   const [messages, setmessages] = useState([
-    { text: "hi", from: "bot" },
-    { text: "hello", from: "user" },
-    { text: "how are you", from: "bot", link: "https://www.tinkerhub.org/" },
+   
   ]);
+  const [loading,setLoading] = useState(false);
   //auto scroll function
   function pageScroll() {
     window.scrollBy(0, 100); // horizontal and vertical scroll increments
@@ -31,6 +30,7 @@ const Home = () => {
       setmessages(tempMessages);
 
       const data = document.getElementById("inputdata").value;
+      setLoading(true);
       fetch("http://127.0.0.1:5000/message", {
         method: "POST",
         headers: {
@@ -39,6 +39,7 @@ const Home = () => {
         body: JSON.stringify(userMessage),
       })
         .then((response) => {
+          setLoading(false)
           return response.json();
         })
         .then((responseouter) => {
@@ -93,6 +94,11 @@ const Home = () => {
               </div>
             );
           })}
+
+          <div  className = "loader" style = {{ display: (loading)?"flex":"none"}}></div>
+          
+          
+
         </div>
       </div>
 
